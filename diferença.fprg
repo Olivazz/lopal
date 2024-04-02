@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 08:20:43 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0ODM7MjAyNC0wNC0wMjsiMDg6MTI6NTAgIjszNjM5"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0ODM7MjAyNC0wNC0wMjsiMDg6MjA6NDMgIjsxOzM3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Me diga dois n&#250;meros separadamente&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a-b"/>
+            <output expression="&quot;A diferen&#231;a desses n&#250;meros &#233; de &quot; &amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
