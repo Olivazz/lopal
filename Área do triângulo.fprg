@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 09:27:54 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0ODM7MjAyNC0wNC0wMjsiMDk6MjA6MDggIjszNjQy"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0ODM7MjAyNC0wNC0wMjsiMDk6Mjc6NTQgIjsyOzM3NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area" type="Integer" array="False" size=""/>
+            <declare name="base" type="Integer" array="False" size=""/>
+            <declare name="altura" type="Integer" array="False" size=""/>
+            <output expression="&quot; Me diga a base de um tri&#226;ngulo&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot; Agora escreva a altura do seu tri&#226;ngulo&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot; Estou calculando...&quot;" newline="True"/>
+            <assign variable="area" expression="base*altura/2"/>
+            <output expression="&quot; A &#225;rea do tri&#227;ngulo &#233; de &quot; &amp;area&amp; &quot;cent&#237;metros&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
