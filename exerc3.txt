@@ -1,0 +1,29 @@
+public class Main {
+  public static void main(String[] args) {
+  
+	Scanner leia = new Scanner(System.in); 
+	
+	int nota = 0;
+	
+	System.out.println("Qual a sua nota?");
+	nota = leia.nextInt();
+	
+	if(nota >= 90 && nota < 101){
+	    System.out.println("Parabéns, sua classificação é A!!");
+	  	}
+	else if (nota >= 80 && nota < 90){
+	System.out.println("sua classificação é B, Quase lá");
+  }
+    else if (nota >= 70 && nota < 80){
+        System.out.println("a sua classificação é C, Mais esforço");
+    }
+    else if (nota >= 0 && nota < 60){
+        System.out.println("sua classificação é F, boa sorte!")
+    }
+    else{
+        System.out.println("Sua classificação é inferior ao necessario!")
+    }
+  }
+    }
+    }
+    }
