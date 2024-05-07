@@ -1,0 +1,20 @@
+
+
+public class Main
+ 
+ int number = 0;
+ 
+ System.out.println("Digite um número");
+  number = leia.nextInt();
+  
+  if (number > 0){
+      System.out.println("Este número é positivo");
+  }
+  else if (number < 0){
+       System.out.println("Este número é negativo");
+  }
+  else if (number == 0){
+      System.out.println("Este número é igual a zero");
+  }
+  }
+ 
