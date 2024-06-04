@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 09:30:22 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDk6MjM6MDMgIjszNjQz"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDk6MzA6MjIgIjsxOzM3NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tri&#226;ngulo" type="Integer" array="False" size=""/>
+            <declare name="base" type="Integer" array="False" size=""/>
+            <declare name="altura" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual a base do tri&#226;ngulo?&quot;" newline="True"/>
+            <input variable="tri&#226;ngulo"/>
+            <output expression="&quot;Qual a base dele?&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;E qual a sua altura?&quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="tri&#226;ngulo" expression="base*altura/2"/>
+            <output expression="&quot;O valor da &#225;rea desse tri&#226;ngulo &#233; de:&quot; &amp;tri&#226;ngulo &amp; &quot;Cent&#237;metros&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

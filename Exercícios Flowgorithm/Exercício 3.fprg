@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 08:27:41 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDg6MjQ6NTYgIjszNjUx"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDg6Mjc6NDEgIjsxOzM3NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite outro n&#250;mero&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Na ordem inversa fica:&quot; &amp;b &amp;a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

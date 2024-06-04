@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 10:26:29 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjEwOzIwMjQtMDItMDY7IjA5OjU4OjI2ICI7MjI1Nw=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjEwOzIwMjQtMDItMDY7IjEwOjI2OjI5ICI7MTsyMzU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, soma, sub, mult, div" type="Real" array="False" size=""/>
+            <output expression="&quot;digite o primeiro numero&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;digite o segundo numero&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="soma" expression="a + b"/>
+            <assign variable="sub" expression="a - b"/>
+            <assign variable="mult" expression="a * b"/>
+            <assign variable="div" expression="a / b"/>
+            <output expression="&quot;resultado da soma e:&quot; &amp; soma" newline="True"/>
+            <output expression="&quot;resultado da subitra&#231;&#227;o e: &quot; &amp; sub" newline="True"/>
+            <output expression="&quot;resultado da multiplica&#231;&#227;o e: &quot; &amp; mult" newline="True"/>
+            <output expression="&quot; resultado da divis&#227;o e: &quot; &amp; div" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

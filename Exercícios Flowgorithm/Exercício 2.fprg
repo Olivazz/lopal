@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 08:22:26 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDg6MTE6MjggIjszNjQ2"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDg6MjI6MjYgIjsyOzM3NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Me fale um n&#250;mero&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Me fale outro n&#250;mero agora&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="a-b"/>
+            <output expression="&quot;O resultado da diferen&#231;a dos dois &#233; de:&quot; &amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

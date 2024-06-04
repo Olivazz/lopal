@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Greycin karla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 02:55:33 "/>
+        <attribute name="created" value="Um9zZW1laXJlIEFnYXBpdG87REVTS1RPUC1LVjZHVlFVOzIwMjQtMDMtMDY7IjAyOjUyOjAxICI7Mzk4Mw=="/>
+        <attribute name="edited" value="Um9zZW1laXJlIEFnYXBpdG87REVTS1RPUC1LVjZHVlFVOzIwMjQtMDMtMDY7IjAyOjU1OjMzICI7MTs0MDk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <for variable="numero" start="0" end="20" direction="inc" step="2">
+                <output expression="&quot;a sequ&#234;ncia &#233;:&quot; &amp; numero" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

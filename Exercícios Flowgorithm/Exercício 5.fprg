@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 09:22:57 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDk6MTY6MTUgIjszNjQ4"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDk6MjI6NTcgIjsxOzM3NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="volume" type="Integer" array="False" size=""/>
+            <declare name="altura" type="Integer" array="False" size=""/>
+            <declare name="largura" type="Integer" array="False" size=""/>
+            <declare name="profundidade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Fale a altura da caixa&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;A largura&quot;" newline="True"/>
+            <input variable="largura"/>
+            <output expression="&quot;E sua profundidade&quot;" newline="True"/>
+            <input variable="profundidade"/>
+            <output expression="&quot;Calculando...&quot;" newline="True"/>
+            <assign variable="volume" expression="altura*largura*profundidade"/>
+            <output expression="&quot;O volume sera de:&quot; &amp;volume &amp; &quot; litros&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

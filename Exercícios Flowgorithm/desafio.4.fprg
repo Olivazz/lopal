@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Greycin Karla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 02:51:48 "/>
+        <attribute name="created" value="Um9zZW1laXJlIEFnYXBpdG87REVTS1RPUC1LVjZHVlFVOzIwMjQtMDMtMDY7IjAyOjQ4OjU3ICI7Mzk5OQ=="/>
+        <attribute name="edited" value="Um9zZW1laXJlIEFnYXBpdG87REVTS1RPUC1LVjZHVlFVOzIwMjQtMDMtMDY7IjAyOjUxOjQ4ICI7MTs0MTAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raio, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual o valor do raio?&quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="area" expression="3.14*raio*2"/>
+            <output expression="&quot;A area do c&#237;rculo:&quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

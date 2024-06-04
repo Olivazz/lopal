@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 02:03:51 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjE0OzIwMjQtMDItMDY7IjAxOjQwOjQ5ICI7MjI0OQ=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjE0OzIwMjQtMDItMDY7IjAyOjAzOjUxICI7MTsyMzUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pedido" type="String" array="False" size=""/>
+            <output expression="&quot;temos x-tudo, x-salada, x-frango, x-bacon, hot-dog&quot;" newline="True"/>
+            <output expression="&quot;qual sera o pedido?&quot;" newline="True"/>
+            <input variable="pedido"/>
+            <declare name="valor" type="Real" array="False" size=""/>
+            <assign variable="valor" expression="19.90"/>
+            <output expression="&quot;o pre&#231;o &#233;: &quot;" newline="True"/>
+            <output expression="valor" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 08:08:58 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDc6NTU6NTEgIjszNjQ5"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDg6MDg6NTggIjsxOzM3NjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="sobrenome" type="String" array="False" size=""/>
+            <output expression="&quot;Oi, qual o seu primeiro nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;E qual seria o seu sobrenome?&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Seu nome &#233;:&quot; &amp;nome &amp;sobrenome" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

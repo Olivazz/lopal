@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 09:16:11 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDg6NTU6NDAgIjszNjQ4"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTk7MjAyNC0wNC0wMjsiMDk6MTY6MTEgIjsxOzM3NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <declare name="z" type="Integer" array="False" size=""/>
+            <declare name="provaA" type="Integer" array="False" size=""/>
+            <declare name="provaB" type="Integer" array="False" size=""/>
+            <declare name="provaC" type="Integer" array="False" size=""/>
+            <declare name="adi&#231;&#227;o" type="Integer" array="False" size=""/>
+            <declare name="divis&#227;o" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual o resultado da primeira prova?&quot;" newline="True"/>
+            <input variable="x"/>
+            <assign variable="provaA" expression="x*2"/>
+            <output expression="&quot;Qual o resultado da segunda prova?&quot;" newline="True"/>
+            <input variable="y"/>
+            <assign variable="provaB" expression="y*3"/>
+            <output expression="&quot;E o da &#250;ltima prova?&quot;" newline="True"/>
+            <input variable="z"/>
+            <assign variable="provaC" expression="z*6"/>
+            <output expression="&quot;Calculando...&quot;" newline="True"/>
+            <assign variable="adi&#231;&#227;o" expression="provaA+provaB+provaC"/>
+            <assign variable="divis&#227;o" expression="adi&#231;&#227;o/11"/>
+            <output expression="&quot;Sua m&#233;dia &#233;:&quot; &amp;divis&#227;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
