@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] vetor = new int[5];
+
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.print("Informe o " + (i + 1) + "º número inteiro: ");
+            vetor[i] = scanner.nextInt();
+        }
+
+        System.out.println("Os números primos no vetor são:");
+
+        for (int i = 0; i < vetor.length; i++) {
+            if (isPrimo(vetor[i])) {
+                System.out.println(vetor[i]);
+            }
+        }
+    }
+
+    public static boolean isPrimo(int num) {
+        if (num <= 1) {
+            return false;
+        }
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}

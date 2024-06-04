@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int[] vetor = new int[10];
+        int produtoPares = 1;
+        int somaImpares = 0;
+
+        for (int i = 0; i < vetor.length; i++) {
+            System.out.print("Informe o " + (i + 1) + " número inteiro: ");
+            vetor[i] = scanner.nextInt();
+
+            if (vetor[i] % 2 == 0) {
+                produtoPares *= vetor[i];
+            } else {
+                somaImpares += vetor[i];
+            }
+        }
+
+        System.out.println("Produto dos pares: " + produtoPares);
+        System.out.println("Soma dos ímpares: " + somaImpares);
+    }
+}
